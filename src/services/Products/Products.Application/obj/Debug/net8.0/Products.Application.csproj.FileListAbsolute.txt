@@ -1,0 +1,15 @@
+C:\Shop-Microservices\src\services\Products\Products.Application\bin\Debug\net8.0\Products.Application.deps.json
+C:\Shop-Microservices\src\services\Products\Products.Application\bin\Debug\net8.0\Products.Application.dll
+C:\Shop-Microservices\src\services\Products\Products.Application\bin\Debug\net8.0\Products.Application.pdb
+C:\Shop-Microservices\src\services\Products\Products.Application\obj\Debug\net8.0\Products.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Shop-Microservices\src\services\Products\Products.Application\obj\Debug\net8.0\Products.Application.AssemblyInfoInputs.cache
+C:\Shop-Microservices\src\services\Products\Products.Application\obj\Debug\net8.0\Products.Application.AssemblyInfo.cs
+C:\Shop-Microservices\src\services\Products\Products.Application\obj\Debug\net8.0\Products.Application.csproj.CoreCompileInputs.cache
+C:\Shop-Microservices\src\services\Products\Products.Application\obj\Debug\net8.0\Products.Application.dll
+C:\Shop-Microservices\src\services\Products\Products.Application\obj\Debug\net8.0\refint\Products.Application.dll
+C:\Shop-Microservices\src\services\Products\Products.Application\obj\Debug\net8.0\Products.Application.pdb
+C:\Shop-Microservices\src\services\Products\Products.Application\obj\Debug\net8.0\ref\Products.Application.dll
+C:\Shop-Microservices\src\services\Products\Products.Application\bin\Debug\net8.0\Products.Domain.dll
+C:\Shop-Microservices\src\services\Products\Products.Application\bin\Debug\net8.0\Products.Domain.pdb
+C:\Shop-Microservices\src\services\Products\Products.Application\obj\Debug\net8.0\Products.Application.csproj.AssemblyReference.cache
+C:\Shop-Microservices\src\services\Products\Products.Application\obj\Debug\net8.0\Products.B05A2103.Up2Date

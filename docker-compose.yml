@@ -1,0 +1,18 @@
+﻿services:
+  products.api:
+    image: products.api
+    build:
+      context: .
+      dockerfile: src/services/Products/Products.Api/Dockerfile
+
+  products.api-1:
+    image: products.api-1
+    build:
+      context: .
+      dockerfile: src/services/Products/Products.Api/Dockerfile
+
+  products.api-2:
+    image: products.api-2
+    build:
+      context: .
+      dockerfile: src/services/Products/Products.Api/Dockerfile

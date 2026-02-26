@@ -1,0 +1,15 @@
+
+تست پیدا کردن پروژه های استارتاپ و دیبی کانتکست
+dotnet ef dbcontext list --project src/services/products/products.infrastructure --startup-project src/services/products/products.api
+
+افزودن مایگریت
+dotnet ef migrations add Init --project src/services/products/products.infrastructure --startup-project src/services/products/products.api
+
+حذف آخرین مایگریت
+dotnet ef migrations remove   --project src/services/products/products.infrastructure --startup-project src/services/products/products.api
+
+ویرایش دیتابیس
+dotnet ef database update --project src/services/products/products.infrastructure --startup-project src/services/products/products.api
+
+
+خیلی مهمه که این دستور رو از کنار فایل .sln اجرا کنی
