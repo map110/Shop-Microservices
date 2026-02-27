@@ -15,3 +15,4 @@ C:\Shop-Microservices\src\services\products\Products.Infrastructure\bin\Debug\ne
 C:\Shop-Microservices\src\services\products\Products.Infrastructure\bin\Debug\net8.0\Products.Domain.pdb
 C:\Shop-Microservices\src\services\products\Products.Infrastructure\obj\Debug\net8.0\Products.Infrastructure.csproj.AssemblyReference.cache
 C:\Shop-Microservices\src\services\products\Products.Infrastructure\obj\Debug\net8.0\Products.D1D4EC6E.Up2Date
+C:\Shop-Microservices\src\services\Products\Products.Infrastructure\obj\Debug\net8.0\Products.Infrastructure.sourcelink.json

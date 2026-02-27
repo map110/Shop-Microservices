@@ -1,10 +1,10 @@
-﻿using FluentValidation;
+using FluentValidation;
 
-namespace Products.Application.Products.Commands.Create;
+namespace Products.Application.Products.Commands.Update;
 
-public class AddProductCommandValidator : AbstractValidator<AddProductCommand>
+public class UpdateProductCommandValidation :AbstractValidator<UpdateProductCommand>
 {
-    public AddProductCommandValidator()
+    public UpdateProductCommandValidation()
     {
         RuleFor(p => p.Title)
             .NotEmpty().WithMessage("{Title} is Required")

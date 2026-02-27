@@ -180,3 +180,4 @@ C:\Shop-Microservices\src\services\Products\Products.Api\bin\Debug\net8.0\Produc
 C:\Shop-Microservices\src\services\Products\Products.Api\bin\Debug\net8.0\Products.Application.pdb
 C:\Shop-Microservices\src\services\Products\Products.Api\bin\Debug\net8.0\FluentValidation.dll
 C:\Shop-Microservices\src\services\Products\Products.Api\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Shop-Microservices\src\services\Products\Products.Api\obj\Debug\net8.0\Products.Api.sourcelink.json

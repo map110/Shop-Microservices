@@ -10,3 +10,4 @@ C:\Shop-Microservices\src\services\Products\Products.Domain\obj\Debug\net8.0\ref
 C:\Shop-Microservices\src\services\Products\Products.Domain\obj\Debug\net8.0\Products.Domain.pdb
 C:\Shop-Microservices\src\services\Products\Products.Domain\obj\Debug\net8.0\ref\Products.Domain.dll
 C:\Shop-Microservices\src\services\products\Products.Domain\obj\Debug\net8.0\Products.Domain.csproj.AssemblyReference.cache
+C:\Shop-Microservices\src\services\Products\Products.Domain\obj\Debug\net8.0\Products.Domain.sourcelink.json
