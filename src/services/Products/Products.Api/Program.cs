@@ -1,3 +1,4 @@
+using GraphQL.Server;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Products.Api;
@@ -12,6 +13,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.AddServiceRegistery();
 builder.AddInfrastructureServices();
 builder.AddApplicationServices();
+
+
+builder.Services.AddGraphQL().AddSystemTextJson();
 
 var app = builder.Build();
 
@@ -46,6 +50,7 @@ app.MapGet("/weatherforecast", () =>
 
 app.UseAuthorization();
 app.UseHttpsRedirection();
+app.UseGraphQLGraphiQL("/ui/graphql");
 app.MapControllers();
 
 

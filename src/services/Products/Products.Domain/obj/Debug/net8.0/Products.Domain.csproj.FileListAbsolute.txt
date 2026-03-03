@@ -11,3 +11,16 @@ C:\Shop-Microservices\src\services\Products\Products.Domain\obj\Debug\net8.0\Pro
 C:\Shop-Microservices\src\services\Products\Products.Domain\obj\Debug\net8.0\ref\Products.Domain.dll
 C:\Shop-Microservices\src\services\products\Products.Domain\obj\Debug\net8.0\Products.Domain.csproj.AssemblyReference.cache
 C:\Shop-Microservices\src\services\Products\Products.Domain\obj\Debug\net8.0\Products.Domain.sourcelink.json
+D:\Shop-Microservices\src\services\Products\Products.Domain\bin\Debug\net8.0\Products.Domain.deps.json
+D:\Shop-Microservices\src\services\Products\Products.Domain\bin\Debug\net8.0\Products.Domain.dll
+D:\Shop-Microservices\src\services\Products\Products.Domain\bin\Debug\net8.0\Products.Domain.pdb
+D:\Shop-Microservices\src\services\Products\Products.Domain\obj\Debug\net8.0\Products.Domain.csproj.AssemblyReference.cache
+D:\Shop-Microservices\src\services\Products\Products.Domain\obj\Debug\net8.0\Products.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Shop-Microservices\src\services\Products\Products.Domain\obj\Debug\net8.0\Products.Domain.AssemblyInfoInputs.cache
+D:\Shop-Microservices\src\services\Products\Products.Domain\obj\Debug\net8.0\Products.Domain.AssemblyInfo.cs
+D:\Shop-Microservices\src\services\Products\Products.Domain\obj\Debug\net8.0\Products.Domain.csproj.CoreCompileInputs.cache
+D:\Shop-Microservices\src\services\Products\Products.Domain\obj\Debug\net8.0\Products.Domain.sourcelink.json
+D:\Shop-Microservices\src\services\Products\Products.Domain\obj\Debug\net8.0\Products.Domain.dll
+D:\Shop-Microservices\src\services\Products\Products.Domain\obj\Debug\net8.0\refint\Products.Domain.dll
+D:\Shop-Microservices\src\services\Products\Products.Domain\obj\Debug\net8.0\Products.Domain.pdb
+D:\Shop-Microservices\src\services\Products\Products.Domain\obj\Debug\net8.0\ref\Products.Domain.dll

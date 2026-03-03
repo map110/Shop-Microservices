@@ -768,28 +768,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\novin\\.nuget\\packages\\": {}
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Shop-Microservices\\src\\services\\Products\\Products.Domain\\Products.Domain.csproj",
+      "projectUniqueName": "D:\\Shop-Microservices\\src\\services\\Products\\Products.Domain\\Products.Domain.csproj",
       "projectName": "Products.Domain",
-      "projectPath": "C:\\Shop-Microservices\\src\\services\\Products\\Products.Domain\\Products.Domain.csproj",
-      "packagesPath": "C:\\Users\\novin\\.nuget\\packages\\",
-      "outputPath": "C:\\Shop-Microservices\\src\\services\\Products\\Products.Domain\\obj\\",
+      "projectPath": "D:\\Shop-Microservices\\src\\services\\Products\\Products.Domain\\Products.Domain.csproj",
+      "packagesPath": "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages",
+      "outputPath": "D:\\Shop-Microservices\\src\\services\\Products\\Products.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\novin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\m.peykanfar\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://repo2.mohaymen.ir/repository/nuget-groupV3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
@@ -806,7 +803,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -841,16 +839,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
-    }
-  ]
+  }
 }
