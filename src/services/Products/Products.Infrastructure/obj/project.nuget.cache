@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wPlimwudln0=",
+  "dgSpecHash": "4C7FFHYODDc=",
   "success": true,
-  "projectFilePath": "D:\\Shop-Microservices\\src\\services\\Products\\Products.Infrastructure\\Products.Infrastructure.csproj",
+  "projectFilePath": "D:\\Shop-Microservices\\src\\services\\products\\Products.Infrastructure\\Products.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\automapper\\16.0.0\\automapper.16.0.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

@@ -2,6 +2,9 @@ using GraphQL.Server;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Products.Api;
+using Products.Api.GQL;
+using Products.Api.GQL.Mutations;
+using Products.Api.GQL.Queries;
 using Products.Domain;
 using Products.Infrastructure;
 using Products.Infrastructure.Products;
@@ -14,6 +17,9 @@ builder.AddServiceRegistery();
 builder.AddInfrastructureServices();
 builder.AddApplicationServices();
 
+builder.Services.AddScoped<AppMutations>();
+builder.Services.AddScoped<AppQueries>();
+builder.Services.AddScoped<AppSchema>();
 
 builder.Services.AddGraphQL().AddSystemTextJson();
 
@@ -50,6 +56,7 @@ app.MapGet("/weatherforecast", () =>
 
 app.UseAuthorization();
 app.UseHttpsRedirection();
+app.UseGraphQL<AppSchema>();
 app.UseGraphQLGraphiQL("/ui/graphql");
 app.MapControllers();
 
