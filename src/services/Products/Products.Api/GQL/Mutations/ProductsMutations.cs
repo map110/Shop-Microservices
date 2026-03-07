@@ -15,7 +15,7 @@ public static class ProductsMutations
             name: "addProduct",
             description: "Is used to add a new product to the database",
             arguments: new QueryArguments(new QueryArgument<NonNullGraphType<ProductReqType>>
-                { Name = "product", Description = "Product input parameter" }),
+                { Name = "productInput", Description = "Product input parameter" }),
             resolve: async context =>
             {
                 var addProduct = context.GetArgument<AddProductCommand>("productInput");
