@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Products.Application.Products.Commands.Create;
 using Products.Application.Products.Commands.Delete;
 using Products.Application.Products.Commands.Update;
-using Products.Application.Products.Queries.GetProductList;
+using Products.Application.Products.Queries.GetProductsList;
 using Products.Domain;
 using Products.Domain.Products;
 
@@ -21,11 +21,11 @@ public class ProductController : ControllerBase
         _mediator = mediator;
     }
 
-    [HttpGet("GetAll")]
-    public async Task<List<ProductDtos.ProductResDto>> GetAllAsync()
-    {
-        return await _mediator.Send(new GetProductListQuery());
-    }
+    // [HttpGet("GetAll")]
+    // public async Task<List<ProductDtos.ProductResDto>> GetAllAsync()
+    // {
+    //     return await _mediator.Send(new GetProductsListQuery());
+    // }
 
     [HttpPost("AddProduct")]
     public async Task<ProductDtos.ProductResDto> AddProductAsync(AddProductCommand request)
