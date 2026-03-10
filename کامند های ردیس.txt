@@ -1,0 +1,17 @@
+﻿دریافت ایمیج ردیس
+docker pull redis:8
+
+اجرای ایمیج redis در کانتینر redis-container با پورت  80 در کانتینر که روی پورت 6379 لوکال اکسپوز میشود
+docker run -d --name redis-container -p 6379:80 redis
+
+ورود به کانتینر برای اجرای دستورات ردیس
+docker exec -it redis-container redis-cli
+
+دستور ذخیره کی ولیو در ردیس
+set key value
+
+دستور خواندن ولیو به وسیله کی
+get key
+
+دستور ذخیره کی ولیو در ردیس با زمان انقضاء
+set key value ex time
