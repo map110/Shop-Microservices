@@ -1,4 +1,7 @@
 
+نصب dotnet ef
+dotnet tool install --global dotnet-ef
+
 تست پیدا کردن پروژه های استارتاپ و دیبی کانتکست
 dotnet ef dbcontext list --project src/services/products/products.infrastructure --startup-project src/services/products/products.api
 
