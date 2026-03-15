@@ -1,13 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "2plPxsvTlwk=",
+  "dgSpecHash": "GzDu3qMaPAc=",
   "success": true,
   "projectFilePath": "D:\\Shop-Microservices\\src\\services\\Products\\Products.Application\\Products.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\automapper\\16.0.0\\automapper.16.0.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\masstransit\\8.0.2\\masstransit.8.0.2.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\masstransit.abstractions\\8.0.2\\masstransit.abstractions.8.0.2.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.entityframeworkcore\\9.0.5\\microsoft.entityframeworkcore.9.0.5.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.entityframeworkcore.abstractions\\9.0.5\\microsoft.entityframeworkcore.abstractions.9.0.5.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.entityframeworkcore.analyzers\\9.0.5\\microsoft.entityframeworkcore.analyzers.9.0.5.nupkg.sha512",
@@ -17,6 +20,10 @@
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.extensions.configuration.abstractions\\9.0.5\\microsoft.extensions.configuration.abstractions.9.0.5.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.extensions.dependencyinjection\\9.0.5\\microsoft.extensions.dependencyinjection.9.0.5.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.extensions.diagnostics.healthchecks\\3.1.18\\microsoft.extensions.diagnostics.healthchecks.3.1.18.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.extensions.diagnostics.healthchecks.abstractions\\3.1.18\\microsoft.extensions.diagnostics.healthchecks.abstractions.3.1.18.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.extensions.fileproviders.abstractions\\3.1.18\\microsoft.extensions.fileproviders.abstractions.3.1.18.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.extensions.hosting.abstractions\\3.1.18\\microsoft.extensions.hosting.abstractions.3.1.18.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.extensions.logging\\9.0.5\\microsoft.extensions.logging.9.0.5.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.extensions.logging.abstractions\\10.0.0\\microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.extensions.options\\10.0.0\\microsoft.extensions.options.10.0.0.nupkg.sha512",
@@ -26,7 +33,13 @@
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.identitymodel.logging\\8.14.0\\microsoft.identitymodel.logging.8.14.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\microsoft.identitymodel.tokens\\8.14.0\\microsoft.identitymodel.tokens.8.14.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\system.diagnostics.diagnosticsource\\10.0.0\\system.diagnostics.diagnosticsource.10.0.0.nupkg.sha512"
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\system.diagnostics.diagnosticsource\\10.0.0\\system.diagnostics.diagnosticsource.10.0.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\system.text.json\\6.0.2\\system.text.json.6.0.2.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

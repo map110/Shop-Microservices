@@ -382,3 +382,10 @@ D:\Shop-Microservices\src\services\Products\Products.Api\obj\Debug\net8.0\refint
 D:\Shop-Microservices\src\services\Products\Products.Api\obj\Debug\net8.0\Products.Api.pdb
 D:\Shop-Microservices\src\services\Products\Products.Api\obj\Debug\net8.0\Products.Api.genruntimeconfig.cache
 D:\Shop-Microservices\src\services\Products\Products.Api\obj\Debug\net8.0\ref\Products.Api.dll
+D:\Shop-Microservices\src\services\Products\Products.Api\bin\Debug\net8.0\MassTransit.dll
+D:\Shop-Microservices\src\services\Products\Products.Api\bin\Debug\net8.0\MassTransit.Abstractions.dll
+D:\Shop-Microservices\src\services\Products\Products.Api\bin\Debug\net8.0\MassTransit.ExtensionsDependencyInjectionIntegration.dll
+D:\Shop-Microservices\src\services\Products\Products.Api\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
+D:\Shop-Microservices\src\services\Products\Products.Api\bin\Debug\net8.0\RabbitMQ.Client.dll
+D:\Shop-Microservices\src\services\Products\Products.Api\bin\Debug\net8.0\EventBus.Messages.dll
+D:\Shop-Microservices\src\services\Products\Products.Api\bin\Debug\net8.0\EventBus.Messages.pdb
