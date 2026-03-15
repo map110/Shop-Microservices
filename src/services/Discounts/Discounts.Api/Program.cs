@@ -5,6 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.AddServiceRegistery();
 builder.AddInfrastructureServices();
 builder.AddApplicationServices();
+builder.AddMessagingConfiguration();
 
 var app = builder.Build();
 

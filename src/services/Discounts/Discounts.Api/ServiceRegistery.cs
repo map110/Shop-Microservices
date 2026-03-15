@@ -1,7 +1,10 @@
 ﻿using System.Text.Json.Serialization;
+using Discounts.Application.EventBusConsumers;
 using Discounts.Domain.Coupons;
 using Discounts.Infrastructure;
 using Discounts.Infrastructure.Coupons;
+using EventBus.Messages.Common;
+using MassTransit;
 using Microsoft.EntityFrameworkCore;
 
 namespace Discounts.Api;
@@ -39,20 +42,20 @@ public static class ServiceRegistery
         return builder.Services;
     }
 
-    // public static IServiceCollection AddMessagingConfiguration(this WebApplicationBuilder builder)
-    // {
-    //     builder.Services.AddMassTransit(
-    //         config =>
-    //         {
-    //             config.AddConsumer<AddProductConsumer>();
-    //             config.UsingRabbitMq((ctx, cfg) =>
-    //                 {
-    //                     cfg.Host(builder.Configuration["EventBusSettings:HostAddress"]);
-    //                     cfg.ReceiveEndpoint(EventBusConstants.AddProductQueue,
-    //                         c => { c.ConfigureConsumer<AddProductConsumer>(ctx); });
-    //                 }
-    //             );
-    //         });
-    //     return builder.Services;
-    // }
+    public static IServiceCollection AddMessagingConfiguration(this WebApplicationBuilder builder)
+    {
+        builder.Services.AddMassTransit(
+            config =>
+            {
+                config.AddConsumer<AddProductConsumer>();
+                config.UsingRabbitMq((ctx, cfg) =>
+                    {
+                        cfg.Host(builder.Configuration["EventBusSettings:HostAddress"]);
+                        cfg.ReceiveEndpoint(EventBusConstants.AddProductQueue,
+                            c => { c.ConfigureConsumer<AddProductConsumer>(ctx); });
+                    }
+                );
+            });
+        return builder.Services;
+    }
 }
