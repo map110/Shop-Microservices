@@ -20,7 +20,7 @@
           "net8.0"
         ],
         "sources": {
-          "https://repo2.mohaymen.ir/repository/nuget-groupV3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -93,7 +93,7 @@
           "net8.0"
         ],
         "sources": {
-          "https://repo2.mohaymen.ir/repository/nuget-groupV3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
